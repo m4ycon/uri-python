@@ -12,6 +12,14 @@
 # Print the message "PROD" and PROD according to the following example, 
 # with a blank space before and after the equal signal.
 
+# 3
+# 9
+# --> PROD = 27
+
+# -30
+# 10
+# --> PROD = -300
+
 a = int(input())
 b = int(input())
 
