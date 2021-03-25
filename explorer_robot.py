@@ -15,5 +15,5 @@ def buscarArtefato():
       res = buscarArtefato()
       if res != None:
         return res
-      volta_i = 0 if i == 1 else (1 if i == 0 else (2 if i == 3 else 3))
-      mover[volta_i]()
+      volta_i = [1, 0, 3, 2]
+      mover[volta_i[i]]()
